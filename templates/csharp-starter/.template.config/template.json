@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "xiaolingcui",
+  "classifications": ["C#", "Starter"],
+  "name": "C# Starter With EditorConfig",
+  "identity": "Xiaolingcui.CSharpStarter",
+  "shortName": "csharp-starter",
+  "sourceName": "csharp-starter",
+  "preferNameDirectory": true
+}

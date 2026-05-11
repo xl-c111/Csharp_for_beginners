@@ -141,7 +141,7 @@ The result may be incorrect because the value exceeds the `int` range.
 
 > `int` is not infinite. Large calculations can overflow.
 
-Interview-safe explanation:
+Mental Rule:
 
 > If I expect values to exceed the `int` range, I would use a larger numeric type such as `long`, or check for overflow depending on the business requirement.
 
@@ -218,7 +218,7 @@ Console.WriteLine(third);
 
 The result is an approximation.
 
-Interview-safe explanation:
+Mental Rule:
 
 > `double` is fast and has a large range, but it may introduce small rounding errors because it represents floating-point numbers in binary.
 
@@ -322,13 +322,12 @@ decimal money = 10.50M;
 
 > This number is a `decimal`, not a `double`.
 
-For interview:
-
+Mental Rule:
 > The suffix matters because the compiler assumes decimal constants like `1.0` are `double` unless we explicitly mark them as `decimal`.
 
 ---
 
-## 12. Common Interview Questions
+## 12. Common Questions
 
 ### Q1. What is the difference between `int`, `double`, and `decimal`?
 
