@@ -1,12 +1,5 @@
 # C# Numbers Cheat Sheet
 
-**For Associate Software Engineer Interview Prep**
-
-Based on Microsoft’s C# numbers tutorial:  
-<https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/numbers-in-csharp>
-
----
-
 ## 1. Main Numeric Types
 
 | Type | Meaning | Best Used For |
